@@ -13,8 +13,6 @@ services:
       - .env
     volumes:
       - .:/app
-# TODO: find a way for WebStorm to read node_modules from docker images
-#      - /app/node_modules
     depends_on:
       - db
 
